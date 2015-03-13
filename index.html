@@ -27,20 +27,42 @@
     }
 
 
+    function initialiseState() {
+        if ( !('showNotification' in ServiceWorkerRegistration.prototype) ) {
+            consoleWrite('Notification not supported!');
+            return;
+        }
+
+        if (Notification.permission === 'denied') {
+            consoleWrite('The user has blocked notifications.');
+            return;
+        }
+
+        if ( !('PushManager' in window) ) {
+            consoleWrite('Push messaging isn\'t supported.');
+            return;
+        }
+
+        navigator.serviceWorker.ready.then(function(serviceWorkerRegistration) {
+            serviceWorkerRegistration.pushManager.getSubscription()
+                .then(function(subscription) {
+
+                });
+        });
+    }
+
+
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
             .then(function(registration) {
                 consoleWrite('ServiceWorker registration successful with scope: ' + registration.scope);
-
-                if ( !('showNotification' in ServiceWorkerRegistration.prototype) ) {
-                    consoleWrite('Notification not supported!');
-                }
+                initialseState();
             })
             .catch(function(err) {
                 consoleWrite('ServiceWorker registration failed: ' + err);
             });
     } else {
-        consoleWrite("ServiceWorker not supproted");
+        consoleWrite('ServiceWorker not supproted');
     }
 </script>
 
