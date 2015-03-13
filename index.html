@@ -54,7 +54,7 @@
 
             serviceWorkerRegistration.pushManager.subscribe()
                 .then(function(subscription) {
-                    consoleWrite('The subscription was successful: ' + subscription);
+                    consoleWrite('The subscription was successful: ' + subscription.subscriptionId);
                 })
                 .catch(function(err) {
                     if (Notification.permission === 'denied')                     {
