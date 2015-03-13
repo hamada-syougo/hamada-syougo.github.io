@@ -13,4 +13,8 @@ self.addEventListener('activate', function(event) {
 self.addEventListener('push', function(event) {
     console.log('push event called');
     console.log('Received a push message', event);
+
+    self.registration.showNotification('通知受け取りました!!', {
+            body: '受け取ったよ！'
+    });
 });
