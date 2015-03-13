@@ -1,0 +1,9 @@
+{
+  "name": "chrome-push-notification-0313",
+  "short_name": "chrome-push-notification",
+  "icons": [],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "gcm_sender_id": "685963658332",
+  "gcm_user_visible_only": true
+}

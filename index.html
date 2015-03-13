@@ -9,6 +9,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+<link rel="manifest" href="manifest.json" />
 </head>
 <body>
 
@@ -44,9 +45,16 @@
         }
 
         navigator.serviceWorker.ready.then(function(serviceWorkerRegistration) {
-            serviceWorkerRegistration.pushManager.getSubscription()
+            serviceWorkerRegistration.pushManager.subscribe()
                 .then(function(subscription) {
-
+                    consoleWrite('The subscription was successful: ' + subscription);
+                })
+                .catch(function(err) {
+                    if (Notification.permission === 'denied')                     {
+                        consoleWrite('Permission for Notifications was denied');
+                    } else {
+                        consoleWrite('Unable to subscribe to push. ' + e);
+                    }
                 });
         });
     }

@@ -9,3 +9,8 @@ self.addEventListener('fetch', function(event) {
 self.addEventListener('activate', function(event) {
     console.log('activate event called');
 });
+
+self.addEventListener('push', function(event) {
+    console.log('push event called');
+    console.log('Received a push message', event);
+});
