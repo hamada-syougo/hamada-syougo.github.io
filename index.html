@@ -45,6 +45,11 @@
         }
 
         navigator.serviceWorker.ready.then(function(serviceWorkerRegistration) {
+            serviceWorkerRegistration.pushManager.getSubscription()
+                .then(function(subscription) {
+                    consoleWrite('subscriptionId: ' + subscription);
+                });
+
             serviceWorkerRegistration.pushManager.subscribe()
                 .then(function(subscription) {
                     consoleWrite('The subscription was successful: ' + subscription);
