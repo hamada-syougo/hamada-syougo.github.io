@@ -39,6 +39,8 @@
             .catch(function(err) {
                 consoleWrite('ServiceWorker registration failed: ' + err);
             });
+    } else {
+        consoleWrite("ServiceWorker not supproted");
     }
 </script>
 
