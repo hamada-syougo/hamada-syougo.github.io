@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "37FDCUR3D9.jp.co.mountposition.UniversalLinkDemo",
-        "paths": [ "universal-links/web/" ]
+        "paths": [ "/universal-links/web/*" ]
       }
     ]
   }
