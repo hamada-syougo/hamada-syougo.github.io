@@ -1,0 +1,42 @@
+{
+  "1": {
+    "id": 1,
+    "name": "アイスクリーム",
+    "img_url: "https://hamada-syougo.github.io/dhu/2016/android/img/62138097.png"
+  },
+  "2": {
+    "id": 2,
+    "name": "パンプキンケーキ",
+    "img_url": "https://hamada-syougo.github.io/dhu/2016/android/img/62672277.jpeg"
+  },
+  "3": {
+    "id": 3,
+    "name": "KitKat",
+    "img_url": "https://hamada-syougo.github.io/dhu/2016/android/img/64242361.jpeg"
+  },
+  "4": {
+    "id": 4,
+    "name": "スターバックス",
+    "img_url": "https://hamada-syougo.github.io/dhu/2016/android/img/64398891.jpeg"
+  },
+  "5": {
+    "id": 5,
+    "name": "マーブルチョコ",
+    "img_url": "https://hamada-syougo.github.io/dhu/2016/android/img/64853386.jpeg"
+  },
+  "6": {
+    "id": 6,
+    "name": "高級チョコ",
+    "img_url": "https://hamada-syougo.github.io/dhu/2016/android/img/65218844.jpeg"
+  },
+  "7": {
+    "id": 7,
+    "name": "イチゴのロールケーキ",
+    "img_url": "https://hamada-syougo.github.io/dhu/2016/android/img/65219478.jpeg"
+  },
+  "8": {
+    "id": 8,
+    "name": "ハートのチョコ",
+    "img_url": "https://hamada-syougo.github.io/dhu/2016/android/img/65219481.png"
+  }
+}
