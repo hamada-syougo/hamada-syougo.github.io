@@ -4,6 +4,10 @@
 
 下記の仕様に従ってスマホアプリを開発してください。
 
+#### リポジトリ URL
+
+[https://github.com/hamada-syougo/hamada-syougo.github.io/blob/master/dhu/2016/android/README.md](https://github.com/hamada-syougo/hamada-syougo.github.io/blob/master/dhu/2016/android/README.md)
+
 ## 提出物 & 期限
 
 #### 提出物
