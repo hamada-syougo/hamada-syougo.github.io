@@ -4,7 +4,21 @@
     "details": [
       {
         "appID": "G32T2ZRT98.sh.snapdi.SnapDishDev",
-        "paths": [ "/universal-links/web/*" ]
+        "paths": [
+            "/universal-links/web/home",
+            "/universal-links/web/feed",
+            "/universal-links/web/books/",
+            "/universal-links/web/popular/homemade/",
+            "/universal-links/web/EditorsPickJP",
+            "/universal-links/web/officials",
+            "/universal-links/web/category",
+            "/universal-links/web/recently",
+            "/universal-links/web/ranking/word",
+            "/universal-links/web/officials/past/case/",
+            "/universal-links/web/privacy.html",
+            "/universal-links/web/terms.html",
+            "/universal-links/web/guideline.html",
+         ]
       }
     ]
   }
