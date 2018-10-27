@@ -19,6 +19,10 @@
             "/universal-links/web/terms.html",
             "/universal-links/web/guideline.html",
          ]
+      },
+      {
+        "appID":"37FDCUR3D9.jp.co.mountposition.WhiteCoffee",
+        "paths":["*"]
       }
     ]
   }
