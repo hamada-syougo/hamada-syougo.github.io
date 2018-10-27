@@ -23,6 +23,10 @@
       {
         "appID":"37FDCUR3D9.jp.co.mountposition.WhiteCoffee",
         "paths":["*"]
+      },
+      {
+        "appID":"GXRR43CVLA.jp.co.mountposition.WhiteCoffee",
+        "paths":["*"]
       }
     ]
   }
